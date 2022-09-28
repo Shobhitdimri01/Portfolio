@@ -1,6 +1,6 @@
 .main-container {
   min-height: 100vh;
-  /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
+ /*background-image: url("../../assets/Home/bg7.jpg");*/ 
 
   margin: 100px 0 -450px 0;
 }
@@ -9,16 +9,16 @@
   max-width: 1100px;
   padding: 10px;
   display: flex;
-  box-shadow: 0 0px 20px -2px #1f2235;
+  box-shadow: 0 0px 20px -2px #0e0e0f;
   border-radius: 12px;
   margin: 0 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #1f2235;
+  background-color: #090909;
 }
 
 .central-form h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-family: "Poppins Bold";
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
@@ -65,7 +65,7 @@
 form p {
   text-align: center;
   margin-bottom: 10px;
-  color: #ff5823;
+  color: #966a5d;
   letter-spacing: 0.1rem;
   font-family: "Poppins Bold";
 }
@@ -79,9 +79,9 @@ form label {
 form input,
 textarea {
   width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0);
+  border: 2px solid rgba(84, 244, 15, 0);
   outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
@@ -90,12 +90,12 @@ textarea {
 }
 
 textarea:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
+  border: 2px solid rgba(167, 173, 169, 0.47);
   background-color: #fff;
 }
 form input:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: #fff;
+  border: 2px solid rgba(34, 43, 72, 0.47);
+  background-color: rgb(248, 248, 248);
 }
 
 form button {
@@ -104,10 +104,10 @@ form button {
   outline: none;
   width: 900px;
   color: rgb(230, 227, 227);
-  border: 2px solid #ff5823;
+  border: 2px solid #151515;
   font-size: 12px;
   border-radius: 19px;
-  background-color: #1f2235;
+  background-color: #060606;
   font-size: 18px;
   width: 160px;
   align-items: center;
@@ -115,7 +115,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #1f2235;
+  background-color: #17d41a;
   transition: all ease 1s;
   border: 2px solid #1f2235;
 }
@@ -126,7 +126,7 @@ button .load {
 
 button .load img {
   width: 60px;
-  color: green;
+  color: rgb(110, 228, 110);
 }
 .col i {
   padding: 7px;
@@ -134,6 +134,7 @@ button .load img {
 }
 .col i:hover {
   transform: scale(1.5);
+  color: rgb(56, 203, 56);
 }
 
 @media screen and (min-width: 940px) {

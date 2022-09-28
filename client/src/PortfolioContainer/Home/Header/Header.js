@@ -46,16 +46,16 @@ export default function Header() {
     let screenComponent = document.getElementById(screen.screen_name);
     if (!screenComponent) return;
 
-    screenComponent.scrollIntoView({ behavior: "smooth" });
-    setSelectedScreen(index);
+    screenComponent.scrollIntoView({behavior:'smooth'})
+    setSelectedScreen(index)
     setShowHeaderOptions(false);
-  };
+};
 
-  useEffect(() => {
-    return () => {
-      currentScreenSubscription.unsubscribe();
-    };
-  }, [currentScreenSubscription]);
+useEffect(() => {
+  return () => {
+    currentScreenSubscription.unsubscribe();
+  };
+}, [currentScreenSubscription]);
 
   return (
     <div
@@ -70,7 +70,7 @@ export default function Header() {
           <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
         </div>
         <div className="header-logo">
-          <span>EDUBABA</span>
+          <span>SHOBHIT</span>
         </div>
         <div
           className={
