@@ -24,7 +24,7 @@ export default function AboutMe(props) {
         "Frontend : React and React Native",
         "Redux for State Mnanagement",
         "Building REST API",
-        "Managing database : Postgresql",
+        "Managing database : Postgresql.",
       ],
       heading: "Here are a Few Highlights:",
     },
